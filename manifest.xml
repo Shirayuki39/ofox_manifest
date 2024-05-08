@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="gh"
+           fetch="https://github.com" />
+   <remote name="Shirayuki39"
+            fetch="https://github.com/Shirayuki39"
+            clone-depth="1" />
+   <remote name="transsion-mt6789-recovery"
+            fetch="https://github.com/transsion-mt6789-recovery"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/tecno/LG8n" name="twrp-device_tecno_TECNO-LG8n" remote="Shirayuki39" revision="fox_12.1" />
+
+ <!--Common Tree -->
+ <project path="device/transsion/mt6789-common" name="Shirayuki39/device_tecno_lg8n_kernel" remote="transsion-mt6789-recovery" revision="fox_12.1" />
+ 
+</manifest>
